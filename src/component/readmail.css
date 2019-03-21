@@ -1,0 +1,81 @@
+.readm{
+   padding: 40px;
+}
+
+sub{
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 1.375rem;
+    font-variant-ligatures: no-contextual;
+    color: #202124;
+    font-weight: 400;
+}
+
+.eheader{
+    
+}
+
+.eheader-prof{
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left: -35px;
+ float: left;
+}
+
+.username{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    font-size: 0.930rem;
+    margin-left: 15px;
+    float: left;
+    font-weight: bold;
+    margin-top: 29px;
+}
+
+.user-email{
+    vertical-align: top;
+    color: #555;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .75rem;
+    letter-spacing: .3px;
+    float: left;
+    margin-top: 33px;
+    margin-left: 5px;
+}
+.tome{
+    float: left;
+    color: #555;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .75rem;
+    letter-spacing: .3px;
+    float: left;
+    margin-left: -7.5em;
+    margin-top: 50px;
+}
+.edate{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .75rem;
+    letter-spacing: .3px;
+    color: #5f6368;
+    display: block;
+    line-height: 20px;
+    margin: 0;
+    float: right;
+    margin-top: 36px;
+}
+.msg{
+    padding: 20px;
+    margin-top: 4em;
+    float: left;
+    font-family: tahoma, sans-serif;
+    margin-left: -9.5em;
+    font-size: 0.900rem;
+
+}
+.quote{
+    float: left;
+    font-family:  Arial,Helvetica,sans-serif;
+    font-size: 0.850rem;
+
+    margin-left: -19em;    margin-top: 10em;
+}

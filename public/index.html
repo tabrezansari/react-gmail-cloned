@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Gmail</title>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -38,4 +43,46 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <script>
+  
+  function selectonlytab(id) {
+        console.log("called tab func")
+    for (var i = 1;i <= 3; i++)
+    {
+        document.getElementById("tab"+i).checked = false;
+    }
+    document.getElementById(id).checked = true;
+}
+  </script>
+  <script>
+    
+$(document).ready(function(){
+  console.log("ready to go");
+  document.getElementById("tab1").checked = true;
+
+      $('#search-input').click( function(e) {
+          
+          e.preventDefault(); // stops link from making page jump to the top
+          e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+          $('#searchcontent').toggle();
+          
+      });
+      
+     
+      
+      $('body').click( function() {
+         
+          $('#searchcontent').hide();
+          
+      });
+
+    
+  });
+
+    </script>
 </html>

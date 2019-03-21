@@ -1,0 +1,100 @@
+
+
+/* Tab Started */
+
+.content {     background-color: #f5f7f7;; color: #373737;}
+   .content > div {display: none; padding: 20px 25px 5px;}
+ 
+
+   input[type=checkbox]{
+    display: none;
+  }   label {
+     display: inline-block; padding: 20px 25px; font-weight: 600; text-align: center;
+     width: 20%;
+     background-color: #f5f7f7;
+     font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .960rem;
+    color: #5f6368;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: left;
+    
+    }
+   label:hover { cursor: pointer;}
+
+
+   #tab3:checked ~ .content #content3
+ {
+     display: block;
+   }
+   #tab1:checked ~ .content #content1{
+    display: block;
+
+   }
+   #tab2:checked ~ .content #content2{
+    display: block;
+
+   }
+
+   #tab1:checked+label{
+    border-bottom-color: #d93025;
+    border-bottom: 3px solid #d93025;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #d93025;
+   }
+
+   #tab2:checked+label{
+    border-bottom-color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #1a73e8;
+   }
+
+   #tab3:checked+label{
+    border-bottom-color: #1e8e3e;
+    border-bottom: 3px solid #1e8e3e;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #1e8e3e;
+   }
+   #content1,#content2,#content3{
+    margin-top: -9px;
+    margin-left: -34px;
+    margin-right: -35px;
+   }
+
+/*Tab End*/
+
+
+
+/*Tab's Table Css*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: -20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: .875rem;
+  letter-spacing: .2px;
+}
+.sub{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .2px;   
+}
+tr:hover{
+  box-shadow: 0px 2px 3px 1px #e2d7d7;
+  cursor: pointer;
+}
+
+
+/*End of Tab's table css*/

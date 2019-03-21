@@ -1,0 +1,98 @@
+.logincont{
+
+}
+.loginbox{
+    border: 1px solid #ece6e6;
+    padding: 20px;
+    width: 400px;
+    height: 440px;
+    margin-top: 5em;
+    margin-left: 30em;
+    border-radius: 7px;
+}
+.logingmail{
+    width: 73px;
+    margin-left: 39%;
+    margin-top: 20px;
+
+}
+.mainlabel{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    background-color: white;
+    margin-left: 33%;
+    color:gray;
+}
+
+.mainlabel2{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    background-color: white;
+    margin-left: 28%;
+    margin-top: -6px;
+    color:gray;
+}
+.loginemail{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 25em;
+    height: 3em;
+    border: 1px solid #ece6e6;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.loginemail:focus{
+    border:2px solid #1a73e8;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+  .loginaccess{
+    margin-top: 35px;
+  }
+  .loginspan{
+    color: #1a73e8;
+    line-height: 1.4286;
+    font-weight: bold;
+    margin: 8px;
+    font-size: inherit;
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    width: 10em;
+    padding: 10px;
+    border-radius: 3px;
+    float: left;
+
+  }
+  .loginspan:hover{
+      background-color: #1a73e833;
+      
+  }
+
+  .loginbtn{
+    color: white;
+    line-height: 1.4286;
+    font-weight: bold;
+    margin: 8px;
+    font-size: inherit;
+    font-size: 13px;
+    background-color: #1a73e8;
+    border: none;
+    width: 7em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    float: right;
+
+  }
+  .loginbtn:hover{
+      background-color: #1a73e8f0;
+      
+  }

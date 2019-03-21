@@ -1,0 +1,36 @@
+/* .sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d93025;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f5f7f7;
+  } */
+
+  .chatmenu{
+    
+    padding: 20px;
+    border-top: 1px solid #eceff1;
+    height: 11px;
+    border-bottom: 1px solid #eceff1;
+  }
+
+  .chatlist{
+  margin-top:-10px;
+    padding: 20px;
+    cursor: pointer;
+  }
